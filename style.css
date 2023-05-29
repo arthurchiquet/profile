@@ -1,0 +1,129 @@
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 200px;
+  }
+}
+
+body {
+  background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif);
+  font-family: Space Mono;
+  color: white;
+  font-size: 12px;
+  line-height: 15px
+}
+
+a {
+  color: black;
+}
+
+img {
+  border-radius: 50%;
+}
+
+h1 {
+  color: #FF69B4;
+}
+
+h2 {
+  color : #00FF7F;
+}
+
+h3 {
+  color: #FF69B4;
+  font-size: 18px;
+}
+
+h1, h2, h3 {
+  line-height: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+img:hover {
+  transition-duration: 0.4s;
+  width: 220px;
+  height: 220px;
+}
+
+.blue-batch {
+  color: #00BFFF
+}
+
+.green_li {
+  color: #00FF7F;
+  font-style: italic;
+}
+
+.big_icones:hover {
+  transition-duration: 0.4s;
+  color: #00FF7F;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.btn-green {
+  background-color: #00FF7F;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+.btn-green:hover {
+  background-color: #00FF7F;
+  transition-duration: 0.4s;
+  font-size: 20px;
+  color: white;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.card_white {
+  background-color: #30312E;
+  border: 1px solid white;
+  border-radius: 15px;
+  text-align: center;
+  padding: 20px 10px;
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.card_white:hover {
+  border: 4px solid #00FF7F;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.big_icones {
+  font-size: 40px;
+  color: white;
+}

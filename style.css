@@ -68,16 +68,16 @@ img:hover {
   height: 220px;
 }
 
-.blue-batch {
+.text-blue {
   color: #00BFFF
 }
 
-.green_li {
+.list-green {
   color: #00FF7F;
   font-style: italic;
 }
 
-.big_icones:hover {
+.icone_big:hover {
   transition-duration: 0.4s;
   color: #00FF7F;
   font-size: 50px;
@@ -102,7 +102,7 @@ img:hover {
   margin: 0 auto;
 }
 
-.card_white {
+.card_grey{
   background-color: #30312E;
   border: 1px solid white;
   border-radius: 15px;
@@ -115,7 +115,7 @@ img:hover {
   height: 80%;
 }
 
-.card_white:hover {
+.card_grey:hover {
   border: 4px solid #00FF7F;
 }
 
@@ -124,7 +124,7 @@ img:hover {
   padding: 0px 20px;
 }
 
-.big_icones {
+.icone_big {
   font-size: 40px;
   color: white;
 }
